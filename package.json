@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "trial-t5",
+  "version": "1.0.0",
+  "main": "data_prep.js",
+  "devDependencies": {},
+  "author": "Samarth",
+  "license": "ISC",
+  "description": ""
+}
