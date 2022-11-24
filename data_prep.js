@@ -4,7 +4,7 @@ var students=[];
 
 const Sequelize = require("sequelize");
 
-var sequelize = new Sequelize('bbncwqqz', 'bbncwqqz', 'rBWGeugSjNJQdL9UxLqkv_0xazH84BsX', {
+var sequelize = new Sequelize('cgurhsjj', 'cgurhsjj', 'WFxsZINuveVnI-MkHrKY7taMCQq76wsW', {
   host: 'lucky.db.elephantsql.com',
   dialect: 'postgres',
   port: 5432,
@@ -13,6 +13,7 @@ var sequelize = new Sequelize('bbncwqqz', 'bbncwqqz', 'rBWGeugSjNJQdL9UxLqkv_0xa
     rejectUnauthorized: false
   }},
   });
+
 
 
 sequelize.authenticate().then(()=> console.log('Connection success.'))
